@@ -64,3 +64,11 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 4. Next, I tested for SSH traffic. In WireShark I filtered for SSH traffic and connected to VM2 with SSH in the command-line. After connecting I begin to see plenty of traffic. I then ran a few Linux commands and saw more traffic.
 </p>
 <br />
+
+<p>
+<img src="https://i.ibb.co/rMrf37s/lab2-10.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+5. Next, I filtered for DHCP traffic. In the command-line I typed (ipconfig /renew) to attempt to issue a new IP address for VM1. I then began to see traffic come through.
+</p>
+<br />
