@@ -72,3 +72,11 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 5. Next, I filtered for DHCP traffic. In the command-line I typed (ipconfig /renew) to attempt to issue a new IP address for VM1. I then began to see traffic come through.
 </p>
 <br />
+
+<p>
+<img src="https://i.ibb.co/kXXc4Xj/lab2-11.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+6. Next, I filtered for DNS traffic. In the command-line I typed (nslookup www.google.com) to find google's IP address. Plenty of traffic came through. 
+</p>
+<br />
