@@ -28,18 +28,21 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/D5wSscF/Lab2-1.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.ibb.co/8gD9dyQ/Lab2-3.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+1. The first thing I did was create a new resource group in Azure. I then created 2 VMs in that resource group, one with a Windows 10 operating system and the other with a Linux operating system. The Windows VM is named VM1 and the Linxus VM is named VM2.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/mD78pKS/lab2-4.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2. Next, I installed WireShark on VM1, ran it, and filtered for ICMP traffic only. Then, I retrieved VM2's private IP address and pinged it from VM1's command-line. This allowed me to observe requests and replies between the 2 VMs within WireShark.
 </p>
 <br />
 
