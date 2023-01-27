@@ -50,7 +50,7 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 <img src="https://i.ibb.co/BZrRKf3/lab2-6.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-<img src="https://i.ibb.co/ZHpTYRf/lab2-5.png" height="70%" width="70%" alt=""/>
+<img src="https://i.ibb.co/tMbpmNw/lab2-7.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
 3. Then, I went back into Azure and changed VM2's "Inbound Security Rules" to deny any ICMP traffic. After pinging VM2 again I began to see timeout messages. In WireShark there were only requests and no replys.
