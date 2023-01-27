@@ -53,6 +53,14 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 <img src="https://i.ibb.co/tMbpmNw/lab2-7.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-3. Then, I went back into Azure and changed VM2's "Inbound Security Rules" to deny any ICMP traffic. After pinging VM2 again I began to see timeout messages. In WireShark there were only requests and no replys.
+3. Then, I went back into Azure and changed VM2's "Inbound Security Rules" to deny any ICMP traffic. After pinging VM2 again I began to see timeout messages. In WireShark there were only requests and no replys. I then went back into Azure and allowed ICMP traffic once again.
+</p>
+<br />
+
+<p>
+<img src="https://i.ibb.co/GHf2XPP/lab2-9.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+4. Next, I tested for SSH traffic. In WireShark I filtered for SSH traffic and connected to VM2 with SSH in the command-line. After connecting I begin to see plenty of traffic. I then ran a few Linux commands and saw more traffic.
 </p>
 <br />
