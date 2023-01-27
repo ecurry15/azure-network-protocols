@@ -80,3 +80,11 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 6. Next, I filtered for DNS traffic. In the command-line I typed (nslookup www.google.com) to find google's IP address. Plenty of traffic came through. 
 </p>
 <br />
+
+<p>
+<img src="https://i.ibb.co/XzkM1MZ/lab2-12.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+7. Lastly, I filtered for RDP traffic. Due to RDP being used to connect my host computer and the the VM, I began to see non-stop traffic in WireShark.
+</p>
+<br />
