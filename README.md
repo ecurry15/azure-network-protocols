@@ -20,10 +20,10 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 
 <h2>High-Level Steps</h2>
 
-- Step 1 : Create 2 VMs, one with a windows 10 operating stystem and the other with a Linux Ubuntu operating system.
-- Step 2 : Install Wireshark on VM #1, run it, and filter for ICMP traffic only.
-- Step 3 : Retrieve VM #2's private IP address and ping it from VM#1's Command-Line.
-- Step 4 : Observe different types of traffic between VM#1 and VM#2 (SSH, DHCP, DNS, and RDP) using CMD and WireShark.
+- Step 1: Create 2 VMs, one with a Windows 10 operating system and the other with a Linux Ubuntu operating system.
+- Step 2: Install Wireshark on VM #1, run it, and filter for ICMP traffic only.
+- Step 3: Retrieve VM #2's private IP address and ping it from VM#1's Command-Line.
+- Step 4: Observe different types of traffic between VM#1 and VM#2 (SSH, DHCP, DNS, and RDP) using CMD and WireShark.
 
 <h2>Actions and Observations</h2>
 
@@ -53,7 +53,7 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 <img src="https://i.ibb.co/tMbpmNw/lab2-7.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-3. Then, I went back into Azure and changed VM2's "Inbound Security Rules" to deny any ICMP traffic. After pinging VM2 again I began to see timeout messages. In WireShark there were only requests and no replys. I then went back into Azure and allowed ICMP traffic once again.
+3. Then, I went back into Azure and changed VM2's "Inbound Security Rules" to deny any ICMP traffic. After pinging VM2 again I began to see timeout messages. In WireShark there were only requests and no replies. I then went back into Azure and allowed ICMP traffic once again.
 </p>
 <br />
 
@@ -85,6 +85,6 @@ Observing various network traffic to and from Azure Virtual Machines with Wiresh
 <img src="https://i.ibb.co/XzkM1MZ/lab2-12.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-7. Lastly, I filtered for RDP traffic. Due to RDP being used to connect my host computer and the the VM, I began to see non-stop traffic in WireShark.
+7. Lastly, I filtered for RDP traffic. Due to RDP being used to connect my host computer and the VM, I began to see non-stop traffic in WireShark.
 </p>
 <br />
